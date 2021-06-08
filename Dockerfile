@@ -1,6 +1,6 @@
 FROM vault:1.0.2
 
-ENV PLUGIN_VERSION=0.0.1
+ENV PLUGIN_VERSION=0.0.2
 
 RUN mkdir -p /vault/plugins \
  && wget https://github.com/WealthWizardsEngineering/vault-plugin-secrets-cognito/releases/download/v${PLUGIN_VERSION}/vault-plugin-secrets-cognito-linux-amd64 -O /vault/plugins/cognito \
