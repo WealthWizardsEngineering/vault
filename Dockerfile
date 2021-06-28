@@ -1,4 +1,4 @@
-FROM vault:1.5.9
+FROM vault:1.6.5
 
 ENV PLUGIN_VERSION=0.0.2
 
